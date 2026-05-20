@@ -1,5 +1,7 @@
 import { Routes, Route } from "react-router-dom";
-import Dashboard from "../admin/pages/Dashboard/Dashboard";
+
+import Dashboard from "../pages/admin/Dashboard/Dashboard";
+
 import ProtectedRoute from "./ProtectedRoute";
 
 const AdminRoutes = () => {
