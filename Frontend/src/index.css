@@ -1,16 +1,8 @@
-/* Google Font - Poppins */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+/* Google Font - Fira Code (Hacker Vibe) */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
 
 /* Tailwind CSS */
 @import "tailwindcss";
-
-/* Global Reset */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
-}
 
 /* Smooth Scrolling */
 html {
@@ -20,18 +12,19 @@ html {
 /* Body Styling */
 body {
   min-height: 100vh;
-  background: #020617;
-  color: white;
+  background: #020617; /* Very Dark Slate */
+  color: #e2e8f0; /* Off-white text */
+  font-family: 'Fira Code', monospace; /* Changed to Hacker Font */
   overflow-x: hidden;
 }
 
-/* Selection Color */
+/* Selection Color (When you select text) */
 ::selection {
-  background: #06b6d4;
-  color: white;
+  background: #00f0ff; /* Bright Neon Cyan */
+  color: #000000; /* Black text for contrast */
 }
 
-/* Scrollbar */
+/* Scrollbar Styling */
 ::-webkit-scrollbar {
   width: 8px;
 }
@@ -46,5 +39,6 @@ body {
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #0891b2;
+  background: #00f0ff;
+  box-shadow: 0 0 10px #00f0ff; /* Added glow effect on hover */
 }
