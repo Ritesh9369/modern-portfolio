@@ -20,10 +20,10 @@ const DesktopNav = () => {
         ))}
       </ul>
 
-      {/* Social Icons & Button */}
+      {/* Social Icons & Button (Updated with your actual profiles) */}
       <div className="hidden md:flex items-center gap-5 text-white">
         <a
-          href="https://github.com/"
+          href="https://github.com/Ritesh9369"
           target="_blank"
           rel="noreferrer"
           className="text-2xl hover:text-cyan-400 hover:scale-110 transition duration-300"
@@ -31,7 +31,7 @@ const DesktopNav = () => {
           <FaGithub />
         </a>
         <a
-          href="https://linkedin.com/"
+          href="https://www.linkedin.com/in/ritesh-chauhan-21835b254/"
           target="_blank"
           rel="noreferrer"
           className="text-2xl hover:text-cyan-400 hover:scale-110 transition duration-300"

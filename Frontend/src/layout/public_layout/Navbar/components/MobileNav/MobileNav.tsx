@@ -51,10 +51,10 @@ const MobileNav = ({ isOpen, setIsOpen }: MobileNavProps) => {
           ))}
         </ul>
 
-        {/* Social Icons */}
+        {/* Social Icons (Updated with your actual profiles) */}
         <div className="flex items-center gap-6 px-8 mt-4 text-white">
           <a
-            href="https://github.com/"
+            href="https://github.com/Ritesh9369"
             target="_blank"
             rel="noreferrer"
             className="text-3xl hover:text-cyan-400 transition duration-300"
@@ -62,7 +62,7 @@ const MobileNav = ({ isOpen, setIsOpen }: MobileNavProps) => {
             <FaGithub />
           </a>
           <a
-            href="https://linkedin.com/"
+            href="https://www.linkedin.com/in/ritesh-chauhan-21835b254/"
             target="_blank"
             rel="noreferrer"
             className="text-3xl hover:text-cyan-400 transition duration-300"
